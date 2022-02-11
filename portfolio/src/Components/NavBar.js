@@ -2,6 +2,8 @@ import React from 'react';
 
 function NavBar({currentPage, handlePageChange}) {
     return(
+        <header>
+            <nav>
         <ul className = "nav nav-tabs">
             <li className="nav-item">
                 <a
@@ -30,6 +32,8 @@ function NavBar({currentPage, handlePageChange}) {
                 </a>
             </li>
         </ul>
+        </nav>
+        </header>
     );
 }
 
