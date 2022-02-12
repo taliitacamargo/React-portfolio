@@ -16,7 +16,7 @@ export default function TheContainer() {
         if (currentPage === "About") {
             return <About />;
         } if (currentPage === "Contact") {
-            return <Contact />
+            return (<div><Contact /></div>)
         } if (currentPage === "projects") {
             return <Projects />
         }

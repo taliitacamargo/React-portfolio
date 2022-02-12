@@ -4,10 +4,14 @@
   margin: 0;
 }
 
-video {
+.videoTag {
 position: fixed;
  left: 0;
  z-index: -1;
+}
+.video2 {
+  left: 0;
+  z-index: -1;
 }
 
 header {
@@ -62,4 +66,11 @@ H2 {
   object-fit: cover;
   border-radius: 5px;
   float: left; 
+}
+
+.links {
+  width: 10em;
+  display: block;
+  padding-right:30px;
+  margin: 0 auto;
 }
