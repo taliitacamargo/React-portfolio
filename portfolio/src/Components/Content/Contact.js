@@ -1,11 +1,14 @@
 import React from 'react';
 import resume from '../assets/resume.pdf'
-import backgroundVideo2 from '../assets/knight.mp4'
+
 
 import { FaGithubSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaUserTie } from "react-icons/fa";
 import { FaEnvelopeOpen} from "react-icons/fa";
+
+
+                    
 
 
 
