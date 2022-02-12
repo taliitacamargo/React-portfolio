@@ -8,14 +8,11 @@ import { FaUserTie } from "react-icons/fa";
 import { FaEnvelopeOpen} from "react-icons/fa";
 
 
-                    
-
-
-
 export default function Contact() {
     return(
     <div className = "container">
-        <h1>Let's Connect!</h1>
+        <h2>Let's Connect!</h2>
+        
         <nav className="nav" id="contact-info">
             <ul className="links">
             <li>

@@ -5,7 +5,7 @@ import tixShare from '../assets/TixShare.jpeg'
 export default function Projects() {
     return(
     <div className = "container ">
-        <h1>My Projects!</h1>
+        <h1>My Projects</h1>
         <div className = "prj-container project-container">
             
             <a className= "projects" href = "https://fasttrackpenn.herokuapp.com/"><h3>FastTrack</h3>

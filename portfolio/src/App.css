@@ -60,7 +60,7 @@ line-height: 1.5;
   opacity: 92%;
 }
 
-H2 {
+h2 {
   display: inline;
 }
 
@@ -81,6 +81,8 @@ H2 {
 small {
 display: block;
 font-weight: bold;
+margin-top: 2px;
+color: white;
 }
 
 .prj-container {
