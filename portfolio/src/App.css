@@ -82,13 +82,21 @@ small {
 display: block;
 }
 
-.projects {
-  color: white;  
+.prj-container {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  color: white;
 }
 
 .project-img {
-  height: 50%;
-  width: 50%;
+  height: 400px;
+  width: 500px;
+  margin: 10px;
+  object-fit: cover;
+  border-radius: 5px;
 }
 
 footer {
