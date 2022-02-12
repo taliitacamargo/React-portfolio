@@ -74,3 +74,13 @@ H2 {
   padding-right:30px;
   margin: 0 auto;
 }
+
+
+.projects {
+  color: white;
+  
+}
+.project-img {
+  height: 300px;
+  width: 300px;
+}
