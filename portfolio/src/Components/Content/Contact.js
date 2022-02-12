@@ -19,23 +19,23 @@ export default function Contact() {
         <nav className="nav" id="contact-info">
             <ul className="links">
             <li>
-                    <a style={{"fontSize":"50px"}}  href="mailto:taliitacamargo@icloud.com"><FaEnvelopeOpen/></a>
+                    <a style={{"fontSize":"45px"}}  href="mailto:taliitacamargo@icloud.com"><FaEnvelopeOpen className= "grow"/></a>
                     <small>Email</small>
                     
                 </li>
                 <li>
-                    <a  style={{"fontSize":"50px"}}  href = {resume}><FaUserTie/></a>
+                    <a  style={{"fontSize":"45px"}}  href = {resume}><FaUserTie className= "grow"/></a>
                     <small>Resume</small>
                     
                 </li>
                 <li>
-                    <a  style={{"fontSize":"50px"}} href="https://www.linkedin.com/in/talita-camargo-03a40a52/"><FaLinkedin/></a>
+                    <a  style={{"fontSize":"45px"}} href="https://www.linkedin.com/in/talita-camargo-03a40a52/"><FaLinkedin className= "grow"/></a>
                     <small>LinkedIn</small>
                     
                 </li>
                 <li>
-                    <a style={{"fontSize":"50px"}}  href="https://github.com/taliitacamargo"><FaGithubSquare/></a>
-                        
+                    <a style={{"fontSize":"45px"}}  href="https://github.com/taliitacamargo"><FaGithubSquare className= "grow"/></a>
+          
                     <small>GitHub</small>
                    
                 </li>
