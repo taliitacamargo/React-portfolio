@@ -74,10 +74,12 @@ H2 {
 }
 
 .links {
-  width: 10em;
-  display: block;
-  padding-right:30px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+small {
+display: block;
 }
 
 .projects {
