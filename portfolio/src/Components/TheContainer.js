@@ -5,6 +5,7 @@ import About from './Content/About';
 import NavBar from './NavBar';
 import Contact from './Content/Contact';
 import Projects from './Content/Projects';
+import backgroundVideo from './assets/particles.mp4'
 import Footer from './Footer';
 
 
@@ -24,8 +25,13 @@ export default function TheContainer() {
     const handlePageChange = (page) => setCurrentPage(page);
     return (
         <div>
+     
+            <video className='videoTag' autoPlay loop muted>
+                <source src={backgroundVideo} type='video/mp4' />
+            </video>
+     
             <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
-            {renderPage()}
+            { renderPage() }
         </div>
     );
 }
