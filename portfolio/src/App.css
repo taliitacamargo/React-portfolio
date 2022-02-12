@@ -2,6 +2,11 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .videoTag {
@@ -75,12 +80,17 @@ H2 {
   margin: 0 auto;
 }
 
-
 .projects {
-  color: white;
-  
+  color: white;  
 }
+
 .project-img {
-  height: 300px;
-  width: 300px;
+  height: 50%;
+  width: 50%;
+}
+
+footer {
+  padding: 10px;
+  background: #000505;
+  font-weight: bold;  
 }

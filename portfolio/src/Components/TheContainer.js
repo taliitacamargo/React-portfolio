@@ -29,9 +29,14 @@ export default function TheContainer() {
             <video className='videoTag' autoPlay loop muted>
                 <source src={backgroundVideo} type='video/mp4' />
             </video>
-     
+            
             <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
+        
             { renderPage() }
+
+            <Footer/>
+
+           
         </div>
     );
 }
