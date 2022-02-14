@@ -2,20 +2,26 @@ import React from 'react';
 import resume from '../assets/resume.pdf';
 import { useForm, ValidationError } from '@formspree/react';
 
-
 import { FaGithubSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaUserTie } from "react-icons/fa";
 import { FaEnvelopeOpen } from "react-icons/fa";
+import {Link  } from 'react-router-dom';
 
 
-export default function Contact() {
+const Contact = () =>  {
     const [state, handleSubmit] = useForm("xvolazrb");
+ 
     if (state.succeeded) {
         
         return (
-        <div className = "container">
+        <div className = "container msg">
             <h2>Your message has been sent!</h2>
+            <div className= "return-btn">
+            <button className = "return" type= "return">
+            {/* <Link to="/"/> */}
+            Return</button>
+            </div>
         </div>
         )
     }
@@ -95,3 +101,5 @@ export default function Contact() {
         </div>
     );
 }
+
+export default Contact;

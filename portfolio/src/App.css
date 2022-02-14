@@ -137,6 +137,16 @@ textarea {
   height: 50%;
 }
 
+.return-btn {
+display:flex;
+justify-content: center;
+}
+
+.return {
+  display: block;
+  margin: 10px;
+}
+
 button {
   padding: 10px;
   font-size: 10;

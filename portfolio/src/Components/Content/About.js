@@ -13,7 +13,6 @@ export default function About() {
                 This experience so far has been interesting and fun. Regardless of the time spent trying to debug my code, searching around the web for new methods I can use, or even just taking a peek at other's inspected web-pages, the knowledge that comes with doing these things pay off.
                 I'm excited for this new chapter of my life, and I hope that by creating this page I can share a bit of my experience with you.
             </p>
-        
         </div>
     );
 }
